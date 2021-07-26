@@ -1,0 +1,20 @@
+
+/* 전체 영역을 통틀어서 스타일 정의 */
+
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{
+	font-family:'Nanum Gothic';
+}
+a{
+	color: #bbbbbb;
+	text-decoration:none;
+}
+a:hover { /* a태그 마우스 오버시 */
+	color: #bbbbbb;
+	text-decoration:none;
+	cursor:pointer; /* 커서를 포인터로 바꿈*/
+}
+
+/* 네비게이션 바 드롭다운 */
